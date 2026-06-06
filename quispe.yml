@@ -1,9 +1,7 @@
-spring:
-  datasource:
-    url: jdbc:postgresql://localhost:5432/companies
-    username: postgres
-    password:
-    driver-class-name: org.postgresql.Driver
-    hikari:
-      connection-timeout: 20000
-      maximum-pool-size: 5
+db:
+  url: jdbc:postgresql://localhost:5432/companies
+  username: postgres
+  password:
+  driver-class-name: org.postgresql.Driver
+  connection-timeout: 20000
+  maximum-pool-size: 5
